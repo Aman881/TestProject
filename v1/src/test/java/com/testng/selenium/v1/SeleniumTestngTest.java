@@ -7,7 +7,7 @@ import org.testng.annotations.*;
 
 public class SeleniumTestngTest {
 	public WebDriver driver;
-	public String baseUrl = "https://www.saucedemo.com/";
+	public String baseUrl = "https://magento.softwaretestingboard.com/"; //magento web application
 	String driverPath ="C:\\Selenium\\chromedriver_win32\\chromedriver.exe";
 	
 	@BeforeTest
@@ -19,7 +19,7 @@ public class SeleniumTestngTest {
 	}
 	@Test
 	public void firstTest() {
-		 String expectedTitle = "Swag Labs";
+		 String expectedTitle = "Home Page - Magento eCommerce - website to practice selenium | demo website for automation testing | selenium practice sites | selenium demo sites | best website to practice selenium automation | automation practice sites Magento Commerce - website to practice selenium | demo website for automation testing | selenium practice sites";
          String actualTitle = driver.getTitle();
          Assert.assertEquals(actualTitle, expectedTitle);
 	}
