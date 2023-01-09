@@ -5,9 +5,9 @@
     <classes>
       <class name="com.testng.selenium.v1.SeleniumTestngTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="initDriver"/>
-          <include name="firstTest"/>
+          <include name="launchBrowser"/>
+          <include name="verifyHomepageTitle"/>
+          <include name="terminateBrowser"/>
         </methods>
       </class> <!-- com.testng.selenium.v1.SeleniumTestngTest -->
     </classes>
