@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.selenium.v1.SeleniumTestngTest">
+      <class name="com.testng.selenium.v1.firsttestngfile">
         <methods>
-          <include name="launchBrowser"/>
           <include name="verifyHomepageTitle"/>
           <include name="terminateBrowser"/>
+          <include name="validLogin"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.testng.selenium.v1.SeleniumTestngTest -->
+      </class> <!-- com.testng.selenium.v1.firsttestngfile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
