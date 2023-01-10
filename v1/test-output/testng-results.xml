@@ -1,69 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-09T16:45:11 NPT" name="Default suite" finished-at="2023-01-09T16:45:12 NPT" duration-ms="108">
+  <suite started-at="2023-01-10T13:18:07 NPT" name="Default suite" finished-at="2023-01-10T13:18:30 NPT" duration-ms="22791">
     <groups>
     </groups>
-    <test started-at="2023-01-09T16:45:11 NPT" name="Default test" finished-at="2023-01-09T16:45:12 NPT" duration-ms="108">
-      <class name="com.testng.selenium.v1.magnetoTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:11 NPT" name="setUp" finished-at="2023-01-09T16:45:11 NPT" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:11 NPT" name="launchBrowser" finished-at="2023-01-09T16:45:11 NPT" duration-ms="1" status="PASS">
+    <test started-at="2023-01-10T13:18:07 NPT" name="Default test" finished-at="2023-01-10T13:18:30 NPT" duration-ms="22791">
+      <class name="com.testng.selenium.v1.firsttestngfile">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:07 NPT" name="launchBrowser" finished-at="2023-01-10T13:18:13 NPT" duration-ms="5706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:11 NPT" name="login" finished-at="2023-01-09T16:45:11 NPT" duration-ms="0" status="PASS">
+        <test-method signature="invalidEmptyLogin()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:13 NPT" name="invalidEmptyLogin" finished-at="2023-01-10T13:18:14 NPT" duration-ms="640" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:11 NPT" name="enterURL" finished-at="2023-01-09T16:45:11 NPT" duration-ms="1" status="PASS">
+        </test-method> <!-- invalidEmptyLogin -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:14 NPT" name="terminateBrowser" finished-at="2023-01-10T13:18:14 NPT" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterURL -->
-        <test-method signature="logoTest()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:11 NPT" name="logoTest" finished-at="2023-01-09T16:45:11 NPT" duration-ms="19" status="PASS">
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:14 NPT" name="launchBrowser" finished-at="2023-01-10T13:18:17 NPT" duration-ms="3191" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:12 NPT" name="logOut" finished-at="2023-01-09T16:45:12 NPT" duration-ms="1" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="invalidPasswordLogin()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:17 NPT" name="invalidPasswordLogin" finished-at="2023-01-10T13:18:17 NPT" duration-ms="390" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:12 NPT" name="enterURL" finished-at="2023-01-09T16:45:12 NPT" duration-ms="1" status="PASS">
+        </test-method> <!-- invalidPasswordLogin -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:17 NPT" name="terminateBrowser" finished-at="2023-01-10T13:18:18 NPT" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterURL -->
-        <test-method signature="searchTest()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:12 NPT" name="searchTest" finished-at="2023-01-09T16:45:12 NPT" duration-ms="3" status="PASS">
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:18 NPT" name="launchBrowser" finished-at="2023-01-10T13:18:21 NPT" duration-ms="3597" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:12 NPT" name="logOut" finished-at="2023-01-09T16:45:12 NPT" duration-ms="1" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="invalidUsernameLogin()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:21 NPT" name="invalidUsernameLogin" finished-at="2023-01-10T13:18:22 NPT" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:12 NPT" name="enterURL" finished-at="2023-01-09T16:45:12 NPT" duration-ms="1" status="PASS">
+        </test-method> <!-- invalidUsernameLogin -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:22 NPT" name="terminateBrowser" finished-at="2023-01-10T13:18:22 NPT" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterURL -->
-        <test-method signature="titleTest()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:12 NPT" name="titleTest" finished-at="2023-01-09T16:45:12 NPT" duration-ms="2" status="PASS">
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:22 NPT" name="launchBrowser" finished-at="2023-01-10T13:18:25 NPT" duration-ms="3155" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:12 NPT" name="logOut" finished-at="2023-01-09T16:45:12 NPT" duration-ms="1" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validLogin()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:25 NPT" name="validLogin" finished-at="2023-01-10T13:18:27 NPT" duration-ms="1170" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:12 NPT" name="closeBrowser" finished-at="2023-01-09T16:45:12 NPT" duration-ms="2" status="PASS">
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:27 NPT" name="terminateBrowser" finished-at="2023-01-10T13:18:27 NPT" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="deleteAllCookies()[pri:0, instance:com.testng.selenium.v1.magnetoTest@6c64cb25]" started-at="2023-01-09T16:45:12 NPT" name="deleteAllCookies" finished-at="2023-01-09T16:45:12 NPT" duration-ms="0" status="PASS">
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:27 NPT" name="launchBrowser" finished-at="2023-01-10T13:18:30 NPT" duration-ms="2840" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteAllCookies -->
-      </class> <!-- com.testng.selenium.v1.magnetoTest -->
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyHomepageTitle()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:30 NPT" name="verifyHomepageTitle" finished-at="2023-01-10T13:18:30 NPT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.testng.selenium.v1.firsttestngfile@6c80d78a]" started-at="2023-01-10T13:18:30 NPT" name="terminateBrowser" finished-at="2023-01-10T13:18:30 NPT" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.testng.selenium.v1.firsttestngfile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
