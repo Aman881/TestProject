@@ -5,10 +5,12 @@
     <classes>
       <class name="com.testng.selenium.v1.firsttestngfile">
         <methods>
+          <include name="invalidUsernameLogin"/>
           <include name="verifyHomepageTitle"/>
           <include name="terminateBrowser"/>
+          <include name="invalidPasswordLogin"/>
           <include name="validLogin"/>
-          <include name="launchBrowser"/>
+          <include name="invalidEmptyLogin"/>
         </methods>
       </class> <!-- com.testng.selenium.v1.firsttestngfile -->
     </classes>
